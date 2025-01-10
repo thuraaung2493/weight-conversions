@@ -1,8 +1,8 @@
-# :package_description
+# Weight conversions in php.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/thuraaung2493/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/thuraaung2493/weight-conversions)
+[![Tests](https://img.shields.io/github/actions/workflow/status/thuraaung2493/weight-conversions/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/thuraaung2493/weight-conversions/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/thuraaung2493/weight-conversions.svg?style=flat-square)](https://packagist.org/packages/thuraaung2493/weight-conversions)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -11,14 +11,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require thuraaung2493/weight-conversions
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new ThuraAung\WeightConversion();
+echo $skeleton->echoPhrase('Hello, ThuraAung!');
 ```
 
 ## Testing
@@ -41,7 +41,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
--   [:author_name](https://github.com/:author_username)
+-   [Thura Aung](https://github.com/thuraaung2493)
 -   [All Contributors](../../contributors)
 
 ## License
